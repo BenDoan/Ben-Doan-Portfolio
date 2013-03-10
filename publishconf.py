@@ -5,7 +5,7 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = 'htttp://simcaster.net'
+SITEURL = 'http://www.bendoan.me'
 
 DELETE_OUTPUT_DIRECTORY = True
 
