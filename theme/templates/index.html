@@ -1,7 +1,44 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="content">
-    <h2>About</h2>
-    <h2>Projects</h2>
+    <div class="about">
+        <h2>about me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div><!-- about -->
+    <div class="projects clearfix">
+        <h2>projects</h2>
+        <div class="project clearfix">
+            <h4>Infinite Campus Grade Scraper</h4>
+            <img src="{{ SITEURL }}/theme/img/projects/icgs.png" alt="" />
+            <ul>
+                <li>Contrib: sole contributor
+                <li>Tech: python
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            </ul>
+        </div><!-- project -->
+        <div class="project clearfix">
+            <h4>Millard West Resource Checkout</h4>
+            <img src="{{ SITEURL }}/theme/img/projects/mwrc.png" alt="" />
+            <ul>
+                <li>Contrib:
+                <li>Tech:
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            </ul>
+        </div><!-- project -->
+        <div class="project clearfix">
+            <h4>Pawprint Newspaper</h4>
+            <img src="{{ SITEURL }}/theme/img/projects/pawprint.png" alt="" />
+            <ul>
+                <li>Contrib:
+                <li>Tech:
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            </ul>
+        </div><!-- project -->
+    </div><!-- projects -->
+    <div class="contact">
+        <h2>Contact</h2>
+        <a href="mailto:ben@bendoan.me">Email</a>
+        <a href="http://github.com/BenDoan">Github</a>
+    </div>
 </section>
 {% endblock %}

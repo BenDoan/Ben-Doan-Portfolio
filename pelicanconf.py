@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = u'Ben Doan'
-SITENAME = u'BenDoan.me'
+SITENAME = u"Ben Doan's Portfolio"
 SITEURL = ''
 
 TIMEZONE = 'America/Chicago'
