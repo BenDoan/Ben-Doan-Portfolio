@@ -17,7 +17,16 @@
     <link rel="shortcut icon" href="./theme/img/favicon.png">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+      ga('create', 'UA-40198072-1', 'bendoan.me');
+      ga('send', 'pageview');
+
+    </script>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -35,51 +44,53 @@
     </header>
 
     <div class="container">
-        <nav>
-            <li><a class="active" href="">home</a>//
-            <li><a href="">about</a>//
-            <li><a href="">projects</a>
-        </nav>
 
         <section class="content">
-    <div class="about">
-        <h2>about me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div><!-- about -->
     <div class="projects clearfix">
         <h2>projects</h2>
         <div class="project clearfix">
-            <h4>Infinite Campus Grade Scraper</h4>
+            <h4><a href="https://github.com/BenDoan/Infinite-Campus-Grade-Scraper">Infinite Campus Grade Scraper</a></h4>
             <img src="./theme/img/projects/icgs.png" alt="" />
             <ul>
-                <li>Contrib: sole contributor
-                <li>Tech: python
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                <li>Contrib: Sole Contributor
+                <li>Tech: Python
+                <li>A script for retrieving grades from an Infinite Campus based website.  Options include the ability to send the grade report as an email using SMTP, daily grade diffs, weekly grade diffs and csv logging of grades.
             </ul>
         </div><!-- project -->
         <div class="project clearfix">
-            <h4>Millard West Resource Checkout</h4>
+            <h4><a href="https://github.com/OmahaBytes/MW-Resource-Checkout">Millard West Resource Checkout</a></h4>
             <img src="./theme/img/projects/mwrc.png" alt="" />
             <ul>
-                <li>Contrib:
-                <li>Tech:
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                <li>Contrib: Coding, Design
+                <li>Tech: PHP, MySQL
+                <li>A webapp for scheduling resources like computer labs, lecture halls, conference rooms, etc.  Contains a full admin panel for user and resource management, a resource history viewer and full logging.
             </ul>
         </div><!-- project -->
         <div class="project clearfix">
-            <h4>Pawprint Newspaper</h4>
+            <h4><a href="http://www.westwildcats.org/news/">Pawprint Student Newspaper</a></h4>
             <img src="./theme/img/projects/pawprint.png" alt="" />
             <ul>
-                <li>Contrib:
-                <li>Tech:
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                <li>Contrib: Coding, Design
+                <li>Tech: PHP, Wordpress
+                <li>The Millard West Pawprint student newspaper website.  Implements a widget for listing recent school news reports, a photo of the day and advertisements.
+            </ul>
+        </div><!-- project -->
+        <div class="project clearfix">
+            <h4><a href="https://github.com/BenDoan/BenPad">BenPad</a></h4>
+            <img src="./theme/img/projects/BenPad.png" alt="" />
+            <ul>
+                <li>Contrib: Sole Contributor
+                <li>Tech: C++, QT
+                <li>A basic, multiplatform, programming text editor.
             </ul>
         </div><!-- project -->
     </div><!-- projects -->
     <div class="contact">
-        <h2>Contact</h2>
-        <a href="mailto:ben@bendoan.me">Email</a>
-        <a href="http://github.com/BenDoan">Github</a>
+        <h2>contact</h2>
+        <div class="icons">
+            <a href="mailto:ben@bendoan.me"><img src="./theme/img/icons/email.png" alt="" /></a>
+            <a href="http://github.com/BenDoan"><img src="./theme/img/icons/github.png" alt="" /></a>
+        </div>
     </div>
 </section>
 

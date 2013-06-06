@@ -61,3 +61,16 @@ section.content div.project img {
 section.content div.project {
     margin-left:20px;
 }
+
+section.content div.contact div.icons {
+    margin-left:20px;
+}
+section.content div.contact img {
+    margin-right:10px;
+}
+
+@media only screen and (max-device-width: 400px){
+    header div.text {
+        font-size:13px;
+    }
+}
