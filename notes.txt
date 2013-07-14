@@ -5,3 +5,6 @@ http://stevelosh.com/projects/
 
 #icons
 http://www.iconfinder.com/search/?q=iconset%3Ametro-ui-dock
+
+#color scheme
+http://www.colourlovers.com/palette/2692496/Breen

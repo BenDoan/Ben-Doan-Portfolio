@@ -14,6 +14,10 @@ header div.text {
     font-size:20px;
 }
 
+span.name {
+    color: #C2C6D3;
+}
+
 header a img {
     float:left;
     padding-top:15px;
@@ -74,3 +78,4 @@ section.content div.contact img {
         font-size:13px;
     }
 }
+
