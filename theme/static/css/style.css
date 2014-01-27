@@ -23,33 +23,14 @@ header a img {
     padding-top:15px;
     margin-right:15px;
 }
-
-nav li {
-   display:inline-block;
-}
-
-nav li a {
-    text-decoration:none;
-    margin: 0 3px;
-}
-
-nav li a:hover {
-    color:#004F39 !important;
-}
-
-nav li a.active {
-    color:#004F39 !important;
-}
-
-nav li:first-child a {
-    margin-left:0;
-}
-
-section.content {
+section.content h2 {
+    /*color:#004F39;*/
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 section.content div.about p {
     margin-left:20px;
+    font-size:1.2em;
 }
 
 section.content div.project {
@@ -69,6 +50,7 @@ section.content div.project {
 section.content div.contact div.icons {
     margin-left:20px;
 }
+
 section.content div.contact img {
     margin-right:10px;
 }

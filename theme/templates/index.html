@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="content">
+    <div class="about clearfix">
+        <h2>about</h2>
+        <p>I'm a college student studying computer science at the University of Nebraska Omaha.  I'm interested in programming and web development, and I have a few open source projects that I've created while learning.</p>
+    </div>
     <div class="projects clearfix">
         <h2>projects</h2>
         <div class="project clearfix">
@@ -16,7 +20,7 @@
         </div><!-- project -->
         <div class="project clearfix">
             <a href="https://github.com/OmahaBytes/MW-Resource-Checkout">
-                <h4>Millard West Resource Checkout</h4>
+                <h4>MW Resource Checkout</h4>
                 <img src="{{ SITEURL }}/theme/img/projects/mwrc.png" alt="" />
             </a>
             <ul>
@@ -37,14 +41,15 @@
             </ul>
         </div><!-- project -->
         <div class="project clearfix">
-            <a href="http://www.sanfordarchitecture.com">
-                <h4>Sanford Architecture</h4>
-                <img src="{{ SITEURL }}/theme/img/projects/sanford.png" alt="" />
+            <a href="https://github.com/BenDoan/Persistant-Backup">
+                <h4>Persistant Backup</h4>
+                <img src="{{ SITEURL }}/theme/img/projects/icgs.png" alt="" />
             </a>
             <ul>
                 <li>Contrib: Sole contributor
-                <li>Tech: PHP, Wordpress
-                <li>A portfolio website for an Omaha architecture firm, with a Wordpress back-end.  Everything on the site is editable by a user with no technical knowledge.
+                <li>Tech: Python
+                <li>A program for persistantly managing backups for mobile devices like laptops and cell phones that cannot be realiably backed up on set schedules.
+
             </ul>
         </div><!-- project -->
         <div class="project clearfix">
@@ -56,6 +61,17 @@
                 <li>Contrib: Sole contributor
                 <li>Tech: C++, QT
                 <li>A basic, multiplatform, tabbed, open-source programming text editor.
+            </ul>
+        </div><!-- project -->
+        <div class="project clearfix">
+            <a href="http://www.sanfordarchitecture.com">
+                <h4>Sanford Architecture</h4>
+                <img src="{{ SITEURL }}/theme/img/projects/sanford.png" alt="" />
+            </a>
+            <ul>
+                <li>Contrib: Sole contributor
+                <li>Tech: PHP, Wordpress
+                <li>A portfolio website for an Omaha architecture firm, with a Wordpress back-end.  Everything on the site is editable by a user with no technical knowledge.
             </ul>
         </div><!-- project -->
     </div><!-- projects -->
