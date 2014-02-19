@@ -3,7 +3,7 @@
 
 AUTHOR = u'Ben Doan'
 SITENAME = u"Ben Doan's Portfolio"
-SITEURL = ''
+SITEURL = 'http://bendoan.me'
 
 TIMEZONE = 'America/Chicago'
 
